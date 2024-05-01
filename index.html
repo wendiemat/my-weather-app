@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="src/styles.css" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="weatherspace">
+        <div>
+          <br />
+          <div class="row">
+            <form id="search-form">
+              <div class="col-7">
+                <input
+                  type="search"
+                  placeholder="Search City"
+                  class="form-control"
+                  id="form-input"
+                />
+              </div>
+              <div class="col-2">
+                <input
+                  type="submit"
+                  value="Search"
+                  class="form-control col-3"
+                  id="search"
+                />
+              </div>
+            </form>
+          </div>
+          <div class="row">
+            <div class="col-4 current-day-time" id="current-day">
+              <ul>
+                <li class="current-day-time">
+                  <em>Its a beautiful day...</em>
+                  <strong class="date">01/01/2001</strong>
+                </li>
+                <li class="current-day">Thursday 3:00pm</li>
+              </ul>
+            </div>
+            <div class="col-8 today">
+              <br />
+              <h3><strong> TODAY'S FORECAST </strong></h3>
+              <span class="city" id="display-city">  </span>
+              <br />
+              <p class="h2" id="temp-degree"></p>
+              <a href="°C" class="celsius">°C</a> |
+              <a href="°F" class="fahrenheit">°F</a>
+            </div>
+          </div>
+        </div>
+        <div class="row weekday-forecast">
+          <div class="col">
+            <ul>
+              <li>
+                <span class="day"> M ⛅</span><br />
+                <span class="daily-temp">16</span>
+                <span id="degree-unit">°C</span>
+              </li>
+            </ul>
+          </div>
+          <div class="col">
+            <ul>
+              <li>
+                <span class="day"> T 🌦️ </span> <br />
+                <span class="daily-temp">16</span>
+                <span id="degree-unit">°C</span>
+              </li>
+            </ul>
+          </div>
+          <div class="col">
+            <ul>
+              <li>
+                <span class="day"> W 🌥️</span> <br />
+                <span class="daily-temp">14</span>
+                <span id="degree-unit">°C</span>
+              </li>
+            </ul>
+          </div>
+          <div class="col">
+            <ul>
+              <li>
+                <span class="day"> T 🌤️</span> <br />
+                <span class="daily-temp">19</span>
+                <span id="degree-unit">°C</span>
+              </li>
+            </ul>
+          </div>
+          <div class="col">
+            <ul>
+              <li>
+                <span class="day"> F️ 🌦️</span> <br />
+                <span class="daily-temp">17</span>
+                <span id="degree-unit">°C</span>
+              </li>
+            </ul>
+          </div>
+          <div class="col">
+            <ul>
+              <li>
+                <span class="day"> S 🌥️</span> <br />
+                <span class="daily-temp">18</span>
+                <span id="degree-unit">°C</span>
+              </li>
+            </ul>
+          </div>
+          <div class="col">
+            <ul>
+              <li>
+                <span class="day"> S 🌤️ </span> <br />
+                <span class="daily-temp">19</span>
+                <span id="degree-unit">°C</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      Coded by
+      <a href="https://www.intsagram.com/wendiemat/" target="_blank"
+        ><em><span>Wendy Mathabela</span></em></a
+      >
+    </footer>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>
