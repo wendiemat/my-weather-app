@@ -1,0 +1,86 @@
+body {
+  font-family: sans-serif;
+  background: linear-gradient(
+    109deg,
+    rgb(39, 134, 166) 0%,
+    rgb(231, 233, 235) 50%,
+    rgb(255, 167, 17) 100%
+  );
+  margin: 0 auto;
+  padding: 30px;
+}
+
+footer {
+  text-align: center;
+  bottom: -40px;
+}
+
+h2 {
+  font-size: 22px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  list-style: none;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+strong {
+  text-align: center;
+}
+
+span {
+  text-align: center;
+}
+
+.current-day-time {
+  padding: 20px;
+  margin: 15px auto;
+}
+
+.current-day {
+  text-align: center;
+  font-size: 25px;
+}
+
+.weekday-forecast {
+  font-weight: 150px;
+  padding: 25px;
+  text-align: center;
+}
+
+.search-form {
+  position: relative;
+  bottom: -10px;
+}
+
+.city {
+  color: blue;
+  font-size: 35px;
+  text-align: center;
+}
+
+.span2 {
+  font-size: 20px;
+  text-align: center;
+}
+
+.today {
+  text-align: center;
+  padding: 15px;
+}
+
+.weatherspace {
+  border: 1px solid black;
+  padding: 15px;
+  margin: 20px auto;
+  min-width: 200px;
+  max-width: 1000px;
+  border-radius: 10px;
+}
